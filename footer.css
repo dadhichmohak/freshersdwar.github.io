@@ -1,0 +1,88 @@
+body{position: relative;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;}
+/* footer 1 */
+/* footer{
+    background-color: #30343f;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    padding-left:2%; padding-right: 2%; padding-bottom: 2%; padding-top: 1%;
+   
+}
+
+.container p{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.container ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 1rem;
+    align-items: center;
+    text-align: center;
+}
+.container li:last-child {
+    margin-right: 0;
+}
+
+
+.container a {
+    color: aquamarine;
+    text-decoration: none;
+}
+.container a:hover {
+    text-decoration: underline;
+} */
+
+
+/* footer 2 */
+
+footer{
+    background-color: #30343f;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #fafaff;
+    padding-left:2%; padding-right: 2%; padding-bottom: 2%; padding-top: 1%;
+   
+}
+
+.container p{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+
+.column-container {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid #ccc; Add a border to the container */
+    align-items: center;
+    align-content: center;
+}
+
+.column {
+    flex: 1;
+    padding: 2%;
+    border-left: 1px solid #fafaff;}
+
+    .column h2, p{
+        text-align: center;
+    }
+    .column a{
+        text-decoration: none;
+        color: #fafaff;
+    }
+
+    .column:first-child {
+        border-left: none;}
